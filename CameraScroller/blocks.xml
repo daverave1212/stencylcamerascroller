@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<palette>
+	<block tag="init-camera-scroll" spec="Initialize camera drag %0 with %1" code="CameraScroller.initializeAny(~, ~);" type="action" color="red" returns="void">		
+		<fields>
+			<dropdown order = "0">
+				<choices>
+					<c text="horizontally and vertically" code="1"></c>
+					<c text="horizontally only" code="2"></c>
+					<c text="vertically only" code="3"></c>
+					<c text="but don't enable it" code="4"></c>
+				</choices>
+			</dropdown>
+			<dropdown order = "1">
+				<choices>
+					<c text="smoothing enabled" code="true"></c>
+					<c text="smoothing disabled" code="false"></c>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+	<block tag="lock-camera-scroll" spec="Disable %0 camera drag" code="CameraScroller.lockAny(~);" type="action" color="red" returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="horizontal and vertical" code="1"></c>
+					<c text="horizontal" code="2"></c>
+					<c text="vertical" code="3"></c>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+	<block tag="unlock-camera-scroll" spec="Enable %0 camera drag" code="CameraScroller.unlockAny(~);" type="action" color="red" returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="horizontal and vertical" code="1"></c>
+					<c text="horizontal" code="2"></c>
+					<c text="vertical" code="3"></c>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+	<block tag="set-camera-smoothing" spec="%0 camera smoothing" code="CameraScroller.setSmoothing(~);" type="action" color="red" returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="Enable" code="1"></c>
+					<c text="Disable" code="2"></c>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+</palette>
+
+
+
+
+
+
+
+
+

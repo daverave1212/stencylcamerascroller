@@ -1,0 +1,6 @@
+name=Camera Scroller
+description=An extension to facilitate camera dragging on mobile
+author=Dave Doublee
+website=http://www.stencyl.com
+version=1.0
+compatibility=all
